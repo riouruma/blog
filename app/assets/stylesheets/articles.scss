@@ -32,3 +32,29 @@ a{
   height: 350px;
   object-fit: cover;
 }
+
+.article-list-image{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+#cover-image{
+  cursor: pointer;
+}
+
+.relative{
+  position: relative;
+
+  i {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    color: white;
+    font-size: 60px;
+  }
+}
+
+#article_image{
+  display: none;
+}
